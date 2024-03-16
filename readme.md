@@ -4,13 +4,17 @@
 # 使用教程
 1. 设置Koreader的导出格式为Json
 2. 将Koreader导出的Json文件放置在目录下
+```
     目录/
     ├── input.json <==
     ├── readme.md
     └── KoreaderToWeread.py
+```
 3. 执行KoreaderToWeread.py, 程序会自动生成适配微信读书的output.txt
+```
     目录/
     ├── input.json 
     ├── readme.md
     ├── KoreaderToWeread.py
     └── output.txt <==
+```
