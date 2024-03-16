@@ -1,3 +1,10 @@
+'''
+Author: Eric Jiang
+Date: 2024-03-16
+From: https://github.com/Ericjsz/KoreadertoWeread
+'''
+
+
 import os
 import json
 
