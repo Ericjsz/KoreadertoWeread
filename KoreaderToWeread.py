@@ -24,7 +24,7 @@ chapters_included = set()
 
 for entry in data['entries']:
     if entry['chapter'] not in chapters_included:
-        output_content += f"◆  {entry['chapter']}\n"
+        output_content += f"\n◆  {entry['chapter']}\n\n"
         chapters_included.add(entry['chapter'])
     output_content += f">> {entry['text']}\n\n"
 
